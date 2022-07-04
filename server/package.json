@@ -1,0 +1,25 @@
+{
+  "name": "wall-i-server",
+  "version": "1.0.0",
+  "description": "Simple backend to show off",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "hack": "nodemon server.js"
+  },
+  "author": "Leonardo Lopez Daza",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.18",
+    "prettier": "^2.7.1"
+  }
+}

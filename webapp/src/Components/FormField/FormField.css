@@ -1,0 +1,16 @@
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field__label {
+  margin: 8px 0;
+}
+
+.field__input {
+  background-color: black;
+  border: none;
+  border-bottom: 2px solid #33ff00;
+  padding: 2px;
+  color: #66ff66;
+}
